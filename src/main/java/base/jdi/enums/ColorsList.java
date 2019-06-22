@@ -1,5 +1,5 @@
 package base.jdi.enums;
 
 public enum ColorsList {
-        Colors, Red, Green, Blue, Yellow
+    Colors, Red, Green, Blue, Yellow
 }

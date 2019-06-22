@@ -17,10 +17,10 @@ public class MetalsColordsForm extends Form<MetalsColors> {
    /* @FindBy(css = "#summary-block")
     public Summary summary;*/
 
-   @FindBy(css = "#odds-selector p")
+    @FindBy(css = "#odds-selector p")
     public RadioButtons<OddsEven> odd;
 
-   @FindBy(css = "#even-selector p")
+    @FindBy(css = "#even-selector p")
     public RadioButtons<OddsEven> even;
 
     /*@FindBy(css = "#elements-block")

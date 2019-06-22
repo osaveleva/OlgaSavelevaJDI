@@ -17,8 +17,9 @@ public class HomePageInits extends TestNGBase {
         WebSite.init(HomePageJDISite.class);
         logger.info("Run Tests");
     }
+
     @AfterMethod
-    public void afterMethod(){
+    public void afterMethod() {
         close();
     }
 }

@@ -1,7 +1,7 @@
 package base.jdi.enums;
 
 public enum UserName {
-    PETER_CHAILOVSKII ("epam", "1234", "PETER_CHAILOVSKII");
+    PETER_CHAILOVSKII("epam", "1234", "PETER_CHAILOVSKII");
 
     private final String login;
     private final String password;
@@ -16,9 +16,11 @@ public enum UserName {
     public String getLogin() {
         return login;
     }
+
     public String getPassword() {
         return password;
     }
+
     public String getuserName() {
         return userName;
     }

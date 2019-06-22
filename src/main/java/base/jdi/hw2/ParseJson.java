@@ -17,7 +17,7 @@ import java.util.List;
 import static base.jdi.hw2.ResultListBuilder.*;
 
 public class ParseJson {
-  //  private static List<String> lines = new ArrayList<>();
+    //  private static List<String> lines = new ArrayList<>();
 
     private static JsonElement parser() throws FileNotFoundException {
         return new JsonParser().parse(new FileReader("src/test/resources/JDI_ex8_MetalsColors.json"));

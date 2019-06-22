@@ -22,18 +22,18 @@ public class TestData {
     public static User PITER_CHAILOVSKII = new User().set(u -> {
         u.name = PETER_CHAILOVSKII.getLogin();
         u.password = PETER_CHAILOVSKII.getPassword();
-    } );
+    });
 
     public static MetalsColors METALS_COLORS = new MetalsColors().set(c -> {
         c.odd = THREE.value;
         c.even = EIGHT.value;
-        c.natureElementsCheckList = WATER.value+COMMA+FIRE.value;
+        c.natureElementsCheckList = WATER.value + COMMA + FIRE.value;
         c.colors = Red;
         c.metals = Selen;
-        c.vegetables = Cucumber+COMMA+Tomato+COMMA+Vegetables;
-    } );
+        c.vegetables = Cucumber + COMMA + Tomato + COMMA + Vegetables;
+    });
 
-    public static List<String> createResultList(){
+    public static List<String> createResultList() {
         lines.add(summaryResult(THREE.value, EIGHT.value));
         lines.add(elementsResult(WATER.value, FIRE.value));
         lines.add(colorResult(Red.toString()));

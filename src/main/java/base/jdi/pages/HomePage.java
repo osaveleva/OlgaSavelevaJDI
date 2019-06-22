@@ -9,9 +9,13 @@ import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple
 
 
 public class HomePage extends WebPage {
-    @Css("header") public Header header;
-    @Css(".uui-side-bar") public NavigationSidebar navigationSidebar;
-    @Css("h3[name='main-title']") public Label mainTitle;
-    @Css(".main-txt") public Text jdiText;
-	
+    @Css("header")
+    public Header header;
+    @Css(".uui-side-bar")
+    public NavigationSidebar navigationSidebar;
+    @Css("h3[name='main-title']")
+    public Label mainTitle;
+    @Css(".main-txt")
+    public Text jdiText;
+
 }

@@ -9,8 +9,11 @@ import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple
 
 
 public class LoginForm extends Form<User> {
-    @XPath(".//button[@type='submit']") public Button loginButton;
-    @Css("input[type=text]") public TextField name;
-    @Css("input[type=password]") public TextField password;
-	
+    @XPath(".//button[@type='submit']")
+    public Button loginButton;
+    @Css("input[type=text]")
+    public TextField name;
+    @Css("input[type=password]")
+    public TextField password;
+
 }

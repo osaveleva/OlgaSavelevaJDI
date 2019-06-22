@@ -7,9 +7,11 @@ import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple
 
 public class MetalAndColorsPage extends WebPage {
 
-    @Css(".main-content") public Main main;
+    @Css(".main-content")
+    public Main main;
 
-    @Css(".uui-side-bar[name='log-sidebar']") public LogSidebar logSidebar;
+    @Css(".uui-side-bar[name='log-sidebar']")
+    public LogSidebar logSidebar;
 
   /*  @Css("header") public Header header;
     @Css(".uui-side-bar[name='navigation-sidebar']") public NavigationSidebar navigationSidebar;
@@ -28,5 +30,5 @@ public class MetalAndColorsPage extends WebPage {
 	public ComboBox metals;
 
     @XPath(".//button[@type='submit' and contains(.,'Submit')]") public Button submit;*/
-	
+
 }

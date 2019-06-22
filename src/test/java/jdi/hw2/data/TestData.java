@@ -11,7 +11,7 @@ public class TestData {
     public static User PITER_CHAILOVSKII = new User().set(u -> {
         u.name = PETER_CHAILOVSKII.getLogin();
         u.password = PETER_CHAILOVSKII.getPassword();
-    } );
+    });
 
 }
 

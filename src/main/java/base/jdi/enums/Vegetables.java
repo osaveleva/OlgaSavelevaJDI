@@ -1,5 +1,5 @@
 package base.jdi.enums;
 
 public enum Vegetables {
-        Cucumber, Tomato, Vegetables, Onion
+    Cucumber, Tomato, Vegetables, Onion
 }

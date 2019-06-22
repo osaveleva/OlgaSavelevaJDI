@@ -25,9 +25,9 @@ public class ResultListBuilder {
         if (size == 1) {
             return ELEMENTS.value + natureElements.get(0);
         } else {
-            for(int i = 0; i < size; i++ ){
+            for (int i = 0; i < size; i++) {
                 str.append(natureElements.get(i));
-                if (i != size-1){
+                if (i != size - 1) {
                     str.append(", ");
                 }
             }
@@ -49,9 +49,9 @@ public class ResultListBuilder {
         if (size == 1) {
             return VEGETABLES.value + vegetables.get(0);
         } else {
-            for(int i = 0; i < size; i++ ){
+            for (int i = 0; i < size; i++) {
                 str.append(vegetables.get(i));
-                if (i != size-1){
+                if (i != size - 1) {
                     str.append(", ");
                 }
             }

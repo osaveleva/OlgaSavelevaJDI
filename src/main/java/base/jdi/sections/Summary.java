@@ -15,5 +15,6 @@ public class Summary extends Section {
     @FindBy(css = "#even-selector p")
     public RadioButtons<OddsEven> even;
 
-    @XPath(".//button[@type='submit' and contains(.,'Calculate')]") public Button calculate;
+    @XPath(".//button[@type='submit' and contains(.,'Calculate')]")
+    public Button calculate;
 }

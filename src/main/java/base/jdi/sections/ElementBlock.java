@@ -7,6 +7,6 @@ import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.FindBy
 
 public class ElementBlock extends Section {
 
-    @FindBy(css ="#elements-checklist p")
+    @FindBy(css = "#elements-checklist p")
     public CheckList<NatureElements> natureElementsCheckList;
 }
