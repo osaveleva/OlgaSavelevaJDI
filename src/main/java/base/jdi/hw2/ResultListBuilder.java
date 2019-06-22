@@ -20,19 +20,19 @@ public class ResultListBuilder {
     }
 
     static String elementsResult(List<String> natureElements) {
-        String str = ELEMENTS.value;
+        StringBuilder str = new StringBuilder(ELEMENTS.value);
         int size = natureElements.size();
         if (size == 1) {
             return ELEMENTS.value + natureElements.get(0);
         } else {
             for(int i = 0; i < size; i++ ){
-                str += natureElements.get(i);
+                str.append(natureElements.get(i));
                 if (i != size-1){
-                    str += ", ";
+                    str.append(", ");
                 }
             }
         }
-        return  str;
+        return str.toString();
     }
 
     static String colorResult(String value) {
@@ -44,19 +44,19 @@ public class ResultListBuilder {
     }
 
     static String vegetablesResult(List<String> vegetables) {
-        String str = VEGETABLES.value;
+        StringBuilder str = new StringBuilder(VEGETABLES.value);
         int size = vegetables.size();
         if (size == 1) {
             return VEGETABLES.value + vegetables.get(0);
         } else {
             for(int i = 0; i < size; i++ ){
-                str += vegetables.get(i);
+                str.append(vegetables.get(i));
                 if (i != size-1){
-                    str += ", ";
+                    str.append(", ");
                 }
             }
         }
-        return  str;
+        return str.toString();
     }
 
 }
