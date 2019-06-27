@@ -3,6 +3,7 @@ package beans;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import org.apache.commons.lang.builder.EqualsBuilder;
@@ -13,10 +14,10 @@ public class JDIEx8MetalsColors {
 
     @SerializedName("summary")
     @Expose
-    public List<Integer> summary = new ArrayList<>();
+    public List<Integer> summary = new ArrayList<Integer>();
     @SerializedName("elements")
     @Expose
-    public List<String> elements = new ArrayList<>();
+    public List<String> elements = new ArrayList<String>();
     @SerializedName("color")
     @Expose
     public String color;
@@ -25,7 +26,7 @@ public class JDIEx8MetalsColors {
     public String metals;
     @SerializedName("vegetables")
     @Expose
-    public List<String> vegetables = new ArrayList<>();
+    public List<String> vegetables = new ArrayList<String>();
 
     @Override
     public String toString() {
@@ -42,7 +43,7 @@ public class JDIEx8MetalsColors {
         if (other == this) {
             return true;
         }
-        if (!(other instanceof JDIEx8MetalsColors)) {
+        if ((other instanceof JDIEx8MetalsColors) == false) {
             return false;
         }
         JDIEx8MetalsColors rhs = ((JDIEx8MetalsColors) other);

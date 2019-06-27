@@ -5318,3 +5318,461 @@ Vegetables: Tomato, Vegetables, Onion
 29:22.684 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:11.557) ===
 29:23.556 [JDI:INFO]: Test run finished. 
 Total test run time: 00:01:03.6
+09:02.67 [JDI:INFO]: Init test run
+09:02.350 [JDI:INFO]: Run Tests
+09:02.639 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+10:34.164 [JDI:INFO]: Init test run
+10:34.435 [JDI:INFO]: Run Tests
+10:34.702 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+12:37.947 [JDI:INFO]: Init test run
+12:38.185 [JDI:INFO]: Run Tests
+12:38.468 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+13:57.721 [JDI:INFO]: Init test run
+13:57.972 [JDI:INFO]: Run Tests
+13:58.245 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+16:49.282 [JDI:INFO]: Init test run
+16:49.540 [JDI:INFO]: Run Tests
+16:49.769 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+23:19.793 [JDI:INFO]: Init test run
+23:20.29 [JDI:INFO]: Run Tests
+23:20.296 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+24:03.881 [JDI:INFO]: Init test run
+24:04.177 [JDI:INFO]: Run Tests
+24:04.478 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.5
+25:37.957 [JDI:INFO]: Init test run
+25:38.212 [JDI:INFO]: Run Tests
+25:38.505 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+26:33.386 [JDI:INFO]: Init test run
+26:33.654 [JDI:INFO]: Run Tests
+26:33.932 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+28:17.789 [JDI:INFO]: Init test run
+28:18.51 [JDI:INFO]: Run Tests
+28:18.279 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+48:54.433 [JDI:INFO]: Init test run
+48:54.661 [JDI:INFO]: Run Tests
+48:54.921 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.4
+49:26.338 [JDI:INFO]: Init test run
+49:26.597 [JDI:INFO]: Run Tests
+49:26.807 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:00.3
+49:55.961 [JDI:INFO]: Init test run
+49:56.258 [JDI:INFO]: Run Tests
+52:45.51 [JDI:INFO]: Init test run
+52:45.340 [JDI:INFO]: Run Tests
+59:44.346 [JDI:INFO]: Init test run
+59:44.615 [JDI:INFO]: Run Tests
+01:03.482 [JDI:INFO]: Init test run
+01:03.735 [JDI:INFO]: Run Tests
+01:03.941 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@67e090[summary=[1, 2],elements=[Water, Fire],color=Red,metals=Gold,vegetables=[Cucumber]] ===
+01:03.954 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+01:10.389 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:06.471) ===
+01:11.187 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@c0680[summary=[1, 8],elements=[Earth, Wind],color=Green,metals=Silver,vegetables=[Tomato, Vegetables]] ===
+01:11.188 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+01:14.951 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.763) ===
+01:15.657 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@a717d[summary=[7, 8],elements=[Earth, Fire],color=Blue,metals=Bronze,vegetables=[Tomato, Vegetables, Onion]] ===
+01:15.657 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+01:19.460 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.804) ===
+01:20.124 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@455d01[summary=[5, 6],elements=[Water, Wind],color=Yellow,metals=Selen,vegetables=[Cucumber, Onion]] ===
+01:20.125 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+01:23.767 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.643) ===
+01:24.461 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@bc0224[summary=[7, 2],elements=[Water, Earth, Wind, Fire],color=Blue,metals=Selen,vegetables=[Cucumber, Tomato, Vegetables, Onion]] ===
+01:24.462 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+01:28.219 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.757) ===
+01:28.937 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:25.3
+46:04.921 [JDI:INFO]: Init test run
+46:05.252 [JDI:INFO]: Run Tests
+46:05.491 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@1a031a4[summary=[1, 2],elements=[Water, Fire],color=Red,metals=Gold,vegetables=[Cucumber]] ===
+46:05.517 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+46:12.85 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+46:12.235 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+46:12.744 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+46:12.788 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+46:13.951 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+46:13.980 [JDI:STEP]: Select(1) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+46:14.93 [JDI:STEP]: Select(2) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+46:14.205 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+46:14.543 [JDI:STEP]: Select(Gold) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+46:14.676 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+46:14.961 [JDI:STEP]: Select(Red) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+46:15.91 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:15.973 [JDI:STEP]: Check(Cucumber) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:16.572 [JDI:STEP]: Check(Water) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+46:17.84 [JDI:STEP]: Check(Fire) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+46:28.639 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+46:28.764 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:23.295) ===
+46:29.526 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@181a0bf[summary=[1, 8],elements=[Earth, Wind],color=Green,metals=Silver,vegetables=[Tomato, Vegetables]] ===
+46:29.526 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+46:33.218 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+46:33.326 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+46:33.811 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+46:33.841 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+46:34.667 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+46:34.697 [JDI:STEP]: Select(1) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+46:34.805 [JDI:STEP]: Select(8) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+46:34.959 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+46:35.252 [JDI:STEP]: Select(Silver) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+46:35.406 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+46:35.663 [JDI:STEP]: Select(Green) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+46:35.805 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:36.645 [JDI:STEP]: Check(Tomato) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:37.241 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:37.835 [JDI:STEP]: Check(Earth) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+46:38.328 [JDI:STEP]: Check(Wind) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+46:47.404 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+46:47.549 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:18.024) ===
+46:48.279 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@5ecb62[summary=[7, 8],elements=[Earth, Fire],color=Blue,metals=Bronze,vegetables=[Tomato, Vegetables, Onion]] ===
+46:48.280 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+46:51.803 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+46:51.924 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+46:52.400 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+46:52.423 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+46:53.286 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+46:53.315 [JDI:STEP]: Select(7) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+46:53.465 [JDI:STEP]: Select(8) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+46:53.623 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+46:53.917 [JDI:STEP]: Select(Bronze) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+46:54.70 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+46:54.334 [JDI:STEP]: Select(Blue) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+46:54.485 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:55.281 [JDI:STEP]: Check(Tomato) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:55.828 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:56.359 [JDI:STEP]: Check(Onion) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+46:56.943 [JDI:STEP]: Check(Earth) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+46:57.467 [JDI:STEP]: Check(Fire) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+47:00.987 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+47:01.116 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:12.837) ===
+47:01.896 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@3a8ee0[summary=[5, 6],elements=[Water, Wind],color=Yellow,metals=Selen,vegetables=[Cucumber, Onion]] ===
+47:01.897 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+47:05.502 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+47:05.633 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+47:06.119 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+47:06.145 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+47:07.315 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+47:07.343 [JDI:STEP]: Select(5) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+47:07.504 [JDI:STEP]: Select(6) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+47:07.669 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+47:07.949 [JDI:STEP]: Select(Selen) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+47:08.117 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+47:08.385 [JDI:STEP]: Select(Yellow) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+47:08.556 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:09.407 [JDI:STEP]: Check(Cucumber) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:09.947 [JDI:STEP]: Check(Onion) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:10.478 [JDI:STEP]: Check(Water) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+47:10.928 [JDI:STEP]: Check(Wind) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+47:15.199 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+47:15.322 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:13.426) ===
+47:16.45 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@1a644eb[summary=[7, 2],elements=[Water, Earth, Wind, Fire],color=Blue,metals=Selen,vegetables=[Cucumber, Tomato, Vegetables, Onion]] ===
+47:16.45 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+47:19.662 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+47:19.787 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+47:20.269 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+47:20.296 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+47:20.921 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+47:20.948 [JDI:STEP]: Select(7) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+47:21.116 [JDI:STEP]: Select(2) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+47:21.233 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+47:21.538 [JDI:STEP]: Select(Selen) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+47:21.738 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+47:22.18 [JDI:STEP]: Select(Blue) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+47:22.171 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:22.968 [JDI:STEP]: Check(Cucumber) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:23.496 [JDI:STEP]: Check(Tomato) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:24.31 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:24.591 [JDI:STEP]: Check(Onion) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+47:25.178 [JDI:STEP]: Check(Water) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+47:25.646 [JDI:STEP]: Check(Earth) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+47:26.76 [JDI:STEP]: Check(Wind) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+47:26.517 [JDI:STEP]: Check(Fire) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+47:35.885 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+47:35.998 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:19.953) ===
+47:36.695 [JDI:INFO]: Test run finished. 
+Total test run time: 00:01:31.6
+39:10.409 [JDI:INFO]: Init test run
+39:10.664 [JDI:INFO]: Run Tests
+39:10.861 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@120270[summary=[1, 2],elements=[Water, Fire],color=Red,metals=Gold,vegetables=[Cucumber]] ===
+39:10.861 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+39:18.153 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:07.311) ===
+39:18.971 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@cdca3a[summary=[1, 8],elements=[Earth, Wind],color=Green,metals=Silver,vegetables=[Tomato, Vegetables]] ===
+39:18.971 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+39:22.552 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.582) ===
+39:23.237 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@106dce0[summary=[7, 8],elements=[Earth, Fire],color=Blue,metals=Bronze,vegetables=[Tomato, Vegetables, Onion]] ===
+39:23.237 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+39:26.826 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.590) ===
+39:27.505 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@168e626[summary=[5, 6],elements=[Water, Wind],color=Yellow,metals=Selen,vegetables=[Cucumber, Onion]] ===
+39:27.505 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+39:31.53 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.549) ===
+39:31.742 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@a50bb9[summary=[7, 2],elements=[Water, Earth, Wind, Fire],color=Blue,metals=Selen,vegetables=[Cucumber, Tomato, Vegetables, Onion]] ===
+39:31.742 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+39:35.302 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:03.561) ===
+39:36.38 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:25.5
+42:52.898 [JDI:INFO]: Init test run
+42:53.164 [JDI:INFO]: Run Tests
+42:53.357 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@19d8ecf[summary=[1, 2],elements=[Water, Fire],color=Red,metals=Gold,vegetables=[Cucumber]] ===
+42:53.371 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+42:58.799 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+42:58.953 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+42:59.454 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+42:59.488 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+43:01.311 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+43:01.337 [JDI:STEP]: Select(1) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+43:01.437 [JDI:STEP]: Select(2) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+43:01.532 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+43:01.821 [JDI:STEP]: Select(Gold) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+43:01.943 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+43:02.204 [JDI:STEP]: Select(Red) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+43:02.333 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:03.140 [JDI:STEP]: Check(Cucumber) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:03.687 [JDI:STEP]: Check(Water) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:04.120 [JDI:STEP]: Check(Fire) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:04.549 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+43:04.651 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:04.730 [JDI:INFO]: >>> Summary: 3
+Elements: Water, Fire
+Color: Red
+Metal: Gold
+Vegetables: Cucumber
+43:04.730 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:04.785 [JDI:INFO]: >>> Summary: 3
+Elements: Water, Fire
+Color: Red
+Metal: Gold
+Vegetables: Cucumber
+43:04.785 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:04.858 [JDI:INFO]: >>> Summary: 3
+Elements: Water, Fire
+Color: Red
+Metal: Gold
+Vegetables: Cucumber
+43:04.859 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:04.915 [JDI:INFO]: >>> Summary: 3
+Elements: Water, Fire
+Color: Red
+Metal: Gold
+Vegetables: Cucumber
+43:04.915 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:04.966 [JDI:INFO]: >>> Summary: 3
+Elements: Water, Fire
+Color: Red
+Metal: Gold
+Vegetables: Cucumber
+43:04.967 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:11.627) ===
+43:05.732 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@b123d0[summary=[1, 8],elements=[Earth, Wind],color=Green,metals=Silver,vegetables=[Tomato, Vegetables]] ===
+43:05.732 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:09.304 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+43:09.408 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+43:09.881 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:09.905 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+43:10.511 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+43:10.536 [JDI:STEP]: Select(1) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+43:10.637 [JDI:STEP]: Select(8) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+43:10.771 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+43:11.53 [JDI:STEP]: Select(Silver) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+43:11.204 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+43:11.472 [JDI:STEP]: Select(Green) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+43:11.603 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:12.409 [JDI:STEP]: Check(Tomato) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:12.945 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:13.459 [JDI:STEP]: Check(Earth) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:13.917 [JDI:STEP]: Check(Wind) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:14.334 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+43:14.433 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:14.510 [JDI:INFO]: >>> Summary: 9
+Elements: Earth, Wind
+Color: Green
+Metal: Silver
+Vegetables: Tomato, Vegetables
+43:14.511 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:14.562 [JDI:INFO]: >>> Summary: 9
+Elements: Earth, Wind
+Color: Green
+Metal: Silver
+Vegetables: Tomato, Vegetables
+43:14.562 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:14.622 [JDI:INFO]: >>> Summary: 9
+Elements: Earth, Wind
+Color: Green
+Metal: Silver
+Vegetables: Tomato, Vegetables
+43:14.622 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:14.679 [JDI:INFO]: >>> Summary: 9
+Elements: Earth, Wind
+Color: Green
+Metal: Silver
+Vegetables: Tomato, Vegetables
+43:14.679 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:14.739 [JDI:INFO]: >>> Summary: 9
+Elements: Earth, Wind
+Color: Green
+Metal: Silver
+Vegetables: Tomato, Vegetables
+43:14.739 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:09.007) ===
+43:15.420 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@957c86[summary=[7, 8],elements=[Earth, Fire],color=Blue,metals=Bronze,vegetables=[Tomato, Vegetables, Onion]] ===
+43:15.421 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:19.30 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+43:19.135 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+43:19.599 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:19.619 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+43:20.824 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+43:20.845 [JDI:STEP]: Select(7) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+43:20.992 [JDI:STEP]: Select(8) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+43:21.151 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+43:21.434 [JDI:STEP]: Select(Bronze) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+43:21.590 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+43:21.871 [JDI:STEP]: Select(Blue) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+43:22.33 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:22.826 [JDI:STEP]: Check(Tomato) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:23.351 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:23.876 [JDI:STEP]: Check(Onion) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:24.385 [JDI:STEP]: Check(Earth) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:24.858 [JDI:STEP]: Check(Fire) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:25.262 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+43:25.358 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:25.428 [JDI:INFO]: >>> Summary: 15
+Elements: Earth, Fire
+Color: Blue
+Metal: Bronze
+Vegetables: Tomato, Vegetables, Onion
+43:25.428 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:25.483 [JDI:INFO]: >>> Summary: 15
+Elements: Earth, Fire
+Color: Blue
+Metal: Bronze
+Vegetables: Tomato, Vegetables, Onion
+43:25.483 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:25.546 [JDI:INFO]: >>> Summary: 15
+Elements: Earth, Fire
+Color: Blue
+Metal: Bronze
+Vegetables: Tomato, Vegetables, Onion
+43:25.546 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:25.600 [JDI:INFO]: >>> Summary: 15
+Elements: Earth, Fire
+Color: Blue
+Metal: Bronze
+Vegetables: Tomato, Vegetables, Onion
+43:25.600 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:25.662 [JDI:INFO]: >>> Summary: 15
+Elements: Earth, Fire
+Color: Blue
+Metal: Bronze
+Vegetables: Tomato, Vegetables, Onion
+43:25.663 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:10.243) ===
+43:26.337 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@721f6b[summary=[5, 6],elements=[Water, Wind],color=Yellow,metals=Selen,vegetables=[Cucumber, Onion]] ===
+43:26.337 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:29.877 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+43:29.983 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+43:30.437 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:30.463 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+43:32.259 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+43:32.280 [JDI:STEP]: Select(5) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+43:32.408 [JDI:STEP]: Select(6) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+43:32.564 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+43:32.840 [JDI:STEP]: Select(Selen) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+43:33.06 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+43:33.244 [JDI:STEP]: Select(Yellow) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+43:33.400 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:34.146 [JDI:STEP]: Check(Cucumber) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:34.653 [JDI:STEP]: Check(Onion) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:35.193 [JDI:STEP]: Check(Water) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:35.648 [JDI:STEP]: Check(Wind) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:36.40 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+43:36.128 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:36.203 [JDI:INFO]: >>> Summary: 11
+Elements: Water, Wind
+Color: Yellow
+Metal: Selen
+Vegetables: Cucumber, Onion
+43:36.203 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:36.256 [JDI:INFO]: >>> Summary: 11
+Elements: Water, Wind
+Color: Yellow
+Metal: Selen
+Vegetables: Cucumber, Onion
+43:36.256 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:36.311 [JDI:INFO]: >>> Summary: 11
+Elements: Water, Wind
+Color: Yellow
+Metal: Selen
+Vegetables: Cucumber, Onion
+43:36.311 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:36.370 [JDI:INFO]: >>> Summary: 11
+Elements: Water, Wind
+Color: Yellow
+Metal: Selen
+Vegetables: Cucumber, Onion
+43:36.371 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:36.423 [JDI:INFO]: >>> Summary: 11
+Elements: Water, Wind
+Color: Yellow
+Metal: Selen
+Vegetables: Cucumber, Onion
+43:36.423 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:10.086) ===
+43:37.98 [JDI:STEP]: === START MetalsColors.checkMetalsColorsPage jdiEx8MetalsColors:beans.JDIEx8MetalsColors@14b8b04[summary=[7, 2],elements=[Water, Earth, Wind, Fire],color=Blue,metals=Selen,vegetables=[Cucumber, Tomato, Vegetables, Onion]] ===
+43:37.98 [JDI:STEP]: Open {url} (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:40.683 [JDI:STEP]: Click on element (Image 'User Icon' (Header.userIcon; css='header'>css='img#user-icon'))
+43:40.804 [JDI:STEP]: Login as User(name:epam; password:1234) (LoginForm 'Login Form' (Header.loginForm; css='header'>css='form#login-form'))
+43:41.261 [JDI:STEP]: Check opened (Home Page (url=https://epam.github.io/JDI/index.html, title=Home Page))
+43:41.295 [JDI:STEP]: Click on element (Label 'Metals Colors' (NavigationSidebar.metalsColors; css='.uui-side-bar'>xpath='.//*[@ui='label' and contains(.,'Metals & Colors')]'))
+43:41.916 [JDI:STEP]: Check opened (Metal And Colors Page (url=https://epam.github.io/JDI/metals-colors.html, title=Metal and Colors))
+43:41.945 [JDI:STEP]: Select(7) (RadioButtons 'Odd' (MetalsColordsForm.odd; css='.main-content'>css='form.form'>css='#odds-selector p'))
+43:42.99 [JDI:STEP]: Select(2) (RadioButtons 'Even' (MetalsColordsForm.even; css='.main-content'>css='form.form'>css='#even-selector p'))
+43:42.219 [JDI:STEP]: Expand (ComboBox 'Metals' (MetalsColordsForm.metals; list:Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li');expander:Button 'Button' (ComboBox.Button; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='.caret');value:Input 'Input' (ComboBox.Input; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='input')))
+43:42.477 [JDI:STEP]: Select(Selen) (Selector 'Selector' (ComboBox.Selector; css='.main-content'>css='form.form'>css='div[ui=combobox]'>css='li'))
+43:42.648 [JDI:STEP]: Expand (Dropdown 'Colors' (MetalsColordsForm.colors; list:Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li');expander:Button 'Button' (Dropdown.Button; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.caret');value:Input 'Input' (Dropdown.Input; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='.filter-option')))
+43:42.950 [JDI:STEP]: Select(Blue) (Selector 'Selector' (Dropdown.Selector; css='.main-content'>css='form.form'>css='div[ui=dropdown]'>css='li'))
+43:43.111 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:43.920 [JDI:STEP]: Check(Cucumber) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:44.468 [JDI:STEP]: Check(Tomato) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:44.984 [JDI:STEP]: Check(Vegetables) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:45.478 [JDI:STEP]: Check(Onion) (DropList 'Vegetables' (MetalsColordsForm.vegetables; list:CheckList 'CheckList' (DropList.CheckList; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='li');expander:Button 'Button' (DropList.Button; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='.caret');value:Input 'Input' (DropList.Input; css='.main-content'>css='form.form'>css='div[ui=droplist]'>css='button')))
+43:45.993 [JDI:STEP]: Check(Water) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:46.414 [JDI:STEP]: Check(Earth) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:46.807 [JDI:STEP]: Check(Wind) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:47.221 [JDI:STEP]: Check(Fire) (CheckList 'Nature Elements Check List' (MetalsColordsForm.natureElementsCheckList; css='.main-content'>css='form.form'>css='#elements-checklist p'))
+43:47.593 [JDI:STEP]: Click on element (Button 'Submit' (MetalsColordsForm.submit; css='.main-content'>css='form.form'>xpath='.//button[@type='submit' and contains(.,'Submit')]'))
+43:47.698 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:47.784 [JDI:INFO]: >>> Summary: 9
+Elements: Water, Earth, Wind, Fire
+Color: Blue
+Metal: Selen
+Vegetables: Cucumber, Tomato, Vegetables, Onion
+43:47.784 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:47.835 [JDI:INFO]: >>> Summary: 9
+Elements: Water, Earth, Wind, Fire
+Color: Blue
+Metal: Selen
+Vegetables: Cucumber, Tomato, Vegetables, Onion
+43:47.835 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:47.885 [JDI:INFO]: >>> Summary: 9
+Elements: Water, Earth, Wind, Fire
+Color: Blue
+Metal: Selen
+Vegetables: Cucumber, Tomato, Vegetables, Onion
+43:47.885 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:47.973 [JDI:INFO]: >>> Summary: 9
+Elements: Water, Earth, Wind, Fire
+Color: Blue
+Metal: Selen
+Vegetables: Cucumber, Tomato, Vegetables, Onion
+43:47.973 [JDI:STEP]: GetText (TextArea 'Result Section' (LogSidebar.resultSection; css='.uui-side-bar[name='log-sidebar']'>css='div.info-panel-body.info-panel-body-result'))
+43:48.33 [JDI:INFO]: >>> Summary: 9
+Elements: Water, Earth, Wind, Fire
+Color: Blue
+Metal: Selen
+Vegetables: Cucumber, Tomato, Vegetables, Onion
+43:48.33 [JDI:STEP]: === END MetalsColors.checkMetalsColorsPage (00:10.935) ===
+43:48.749 [JDI:INFO]: Test run finished. 
+Total test run time: 00:00:55.7

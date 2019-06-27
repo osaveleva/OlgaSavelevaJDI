@@ -1,5 +1,7 @@
 package jdi.hw2;
 
+import base.jdi.hw2.ResultListBuilder;
+import beans.JDIEx8MetalsColors;
 import jdi.HomePageInits;
 
 import org.testng.annotations.DataProvider;
@@ -18,13 +20,13 @@ import static jdi.hw2.data.TestData.PITER_CHAILOVSKII;
 public class MetalsColors extends HomePageInits {
 
     @DataProvider
-    public Object[][] getData() throws FileNotFoundException {
+    public Object[] getData() throws FileNotFoundException {
         return getDataSetsValues();
     }
 
-
     @Test(dataProvider = "getData")
-    public void checkMetalsColorsPage(List<Integer> summary, String metals, String colors, List<String> vegetables, List<String> elements, List<String> lines) {
+    public void checkMetalsColorsPage(JDIEx8MetalsColors jdiEx8MetalsColors) {
+
         //1. Open browser
         homePage.open();
 
@@ -38,22 +40,26 @@ public class MetalsColors extends HomePageInits {
         metalAndColorsPage.checkOpened();
 
         //4. Fill form Metals & Colors and submit data
-        metalAndColorsPage.main.form.odd.select(summary.get(0).toString());
-        metalAndColorsPage.main.form.even.select(summary.get(1).toString());
-        metalAndColorsPage.main.form.metals.select(metals);
-        metalAndColorsPage.main.form.colors.select(colors);
+        metalAndColorsPage.main.form.odd.select(jdiEx8MetalsColors.summary.get(0).toString());
+        metalAndColorsPage.main.form.even.select(jdiEx8MetalsColors.summary.get(1).toString());
+        metalAndColorsPage.main.form.metals.select(jdiEx8MetalsColors.metals);
+        metalAndColorsPage.main.form.colors.select(jdiEx8MetalsColors.color);
         metalAndColorsPage.main.form.vegetables.check(VEGETABLES_DEFAULT);
 
-        for (String i : vegetables) {
+        for (String i : jdiEx8MetalsColors.vegetables) {
             metalAndColorsPage.main.form.vegetables.check(i);
         }
 
-        for (String elem : elements) {
+        for (String elem : jdiEx8MetalsColors.elements) {
             metalAndColorsPage.main.form.natureElementsCheckList.check(elem);
         }
 
         metalAndColorsPage.main.form.submit.click();
 
+        //5. Check result sections
+        ResultListBuilder resultListBuilder = new ResultListBuilder();
+        resultListBuilder.setParam(jdiEx8MetalsColors);
+        List<String> lines = resultListBuilder.makeList();
         for (String line : lines) {
             assert (metalAndColorsPage.logSidebar.resultSection.getText().contains(line));
         }
