@@ -1,6 +1,7 @@
 package base.jdi.hw1;
 
 import base.jdi.enums.Vegetables;
+import org.testng.util.Strings;
 
 
 import static base.jdi.enums.ResultList.*;
@@ -22,6 +23,7 @@ public class ResultListBuilder {
 
     public static String elementsResult(String... natureElements) {
         StringBuilder str = new StringBuilder(ELEMENTS.value);
+        String join = Strings.join(",", natureElements);
         int size = natureElements.length;
         if (size == 1) {
             return ELEMENTS.value + natureElements[0];

@@ -13,4 +13,15 @@ public class HomePageJDISite extends WebSite {
     @JPage(url = "/JDI/metals-colors.html", title = "Metal and Colors")
     public static MetalAndColorsPage metalAndColorsPage;
 
+    public static void checkOpened(PageNames page) {
+        switch (page) {
+            case QWE:
+                homePage.checkOpened();
+                break;
+            case ASD:
+                metalAndColorsPage.checkOpened();
+                break;
+        }
+    }
+
 }

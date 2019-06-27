@@ -40,6 +40,7 @@ public class MetalsColors extends HomePageInits {
         metalAndColorsPage.checkOpened();
 
         //4. Fill form Metals & Colors and submit data
+        // TODO Should be included in PO call
         metalAndColorsPage.main.form.odd.select(jdiEx8MetalsColors.summary.get(0).toString());
         metalAndColorsPage.main.form.even.select(jdiEx8MetalsColors.summary.get(1).toString());
         metalAndColorsPage.main.form.metals.select(jdiEx8MetalsColors.metals);
@@ -55,6 +56,7 @@ public class MetalsColors extends HomePageInits {
         }
 
         metalAndColorsPage.main.form.submit.click();
+        // !TODO
 
         //5. Check result sections
         ResultListBuilder resultListBuilder = new ResultListBuilder();

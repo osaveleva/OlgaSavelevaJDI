@@ -13,6 +13,7 @@ public class MetalAndColorsPage extends WebPage {
     @Css(".uui-side-bar[name='log-sidebar']")
     public LogSidebar logSidebar;
 
+
   /*  @Css("header") public Header header;
     @Css(".uui-side-bar[name='navigation-sidebar']") public NavigationSidebar navigationSidebar;
 
