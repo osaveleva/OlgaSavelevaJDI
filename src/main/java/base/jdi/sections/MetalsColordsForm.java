@@ -52,4 +52,10 @@ public class MetalsColordsForm extends Form<MetalsColors> {
     )
     public DropList vegetables;
 
+    @Override
+    public void submit(MetalsColors metalsColors) {
+        odd.select(metalsColors.getOdd());
+        even.select(metalsColors.even);
+        super.submit(metalsColors);
+    }
 }

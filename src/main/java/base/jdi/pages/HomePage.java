@@ -1,5 +1,6 @@
 package base.jdi.pages;
 
+import base.jdi.hw1.entities.User;
 import base.jdi.sections.Header;
 import base.jdi.sections.NavigationSidebar;
 import com.epam.jdi.uitests.web.selenium.elements.common.Label;
@@ -18,4 +19,12 @@ public class HomePage extends WebPage {
     @Css(".main-txt")
     public Text jdiText;
 
+    public void login(User user) {
+        header.userIcon.click();
+        header.loginForm.loginAs(user);
+    }
+
+    public void openByLeftMenu(jdi.hw1.PageNames pageName) {
+
+    }
 }
