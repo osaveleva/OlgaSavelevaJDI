@@ -17,7 +17,7 @@ import static base.jdi.hw2.ParseJson.getDataSetsValues;
 import static jdi.hw2.data.TestData.PITER_CHAILOVSKII;
 
 
-public class MetalsColors extends HomePageInits {
+public class HW2MetalsColorsTest extends HomePageInits {
 
     @DataProvider
     public Object[] getData() throws FileNotFoundException {
@@ -41,21 +41,21 @@ public class MetalsColors extends HomePageInits {
 
         //4. Fill form Metals & Colors and submit data
         // TODO Should be included in PO call
-        metalAndColorsPage.main.form.odd.select(jdiEx8MetalsColors.summary.get(0).toString());
-        metalAndColorsPage.main.form.even.select(jdiEx8MetalsColors.summary.get(1).toString());
-        metalAndColorsPage.main.form.metals.select(jdiEx8MetalsColors.metals);
-        metalAndColorsPage.main.form.colors.select(jdiEx8MetalsColors.color);
-        metalAndColorsPage.main.form.vegetables.check(VEGETABLES_DEFAULT);
+        metalAndColorsPage.form.odd.select(jdiEx8MetalsColors.summary.get(0).toString());
+        metalAndColorsPage.form.even.select(jdiEx8MetalsColors.summary.get(1).toString());
+        metalAndColorsPage.form.metals.select(jdiEx8MetalsColors.metals);
+        metalAndColorsPage.form.colors.select(jdiEx8MetalsColors.color);
+        metalAndColorsPage.form.vegetables.check(VEGETABLES_DEFAULT);
 
         for (String i : jdiEx8MetalsColors.vegetables) {
-            metalAndColorsPage.main.form.vegetables.check(i);
+            metalAndColorsPage.form.vegetables.check(i);
         }
 
         for (String elem : jdiEx8MetalsColors.elements) {
-            metalAndColorsPage.main.form.natureElementsCheckList.check(elem);
+            metalAndColorsPage.form.natureElementsCheckList.check(elem);
         }
 
-        metalAndColorsPage.main.form.submit.click();
+        metalAndColorsPage.form.submit.click();
         // !TODO
 
         //5. Check result sections

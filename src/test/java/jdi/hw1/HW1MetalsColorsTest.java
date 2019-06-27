@@ -6,11 +6,15 @@ import org.testng.annotations.Test;
 
 import static base.jdi.HomePageJDISite.homePage;
 import static base.jdi.HomePageJDISite.metalAndColorsPage;
-import static jdi.hw1.PageNames.HOME_PAGE;
+
+import static base.jdi.enums.NatureElements.Fire;
+import static base.jdi.enums.NatureElements.Water;
+import static base.jdi.enums.PagesNames.*;
+import static base.jdi.enums.PagesNames.METALS_COLORS;
 import static jdi.hw1.data.TestData.*;
 
 
-public class MetalsColors extends HomePageInits {
+public class HW1MetalsColorsTest extends HomePageInits {
 
 
     @Test
@@ -20,19 +24,16 @@ public class MetalsColors extends HomePageInits {
 
         //2. Login on JDI site as User
         homePage.login(PITER_CHAILOVSKII);
-        homePage.checkOpened(HOME_PAGE);
+        homePage.checkOpened();
 
         //3. Open Metals & Colors page by Header menu
         homePage.openByLeftMenu(METALS_COLORS);
 
         //4. Fill form Metals & Colors and submit data
-        metalAndColorsPage.main.form.submit(METALS_COLORS);
+        metalAndColorsPage.form.submit(METALS_COLORS_VALUES);
+      //  metalAndColorsPage.form.natureElementsCheckList.
 
         //5. Check result sections
-        metalAndColorsPage.logSidebar.checkContains(METALS_COLORS);
-        for (String line : createResultList()) {
-            assert (metalAndColorsPage.logSidebar.resultSection.getText().contains(line));
-        }
-
+        metalAndColorsPage.logSidebar.checkContains(METALS_COLORS_VALUES);
     }
 }

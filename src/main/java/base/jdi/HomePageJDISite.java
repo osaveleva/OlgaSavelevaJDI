@@ -1,5 +1,6 @@
 package base.jdi;
 
+import base.jdi.enums.PagesNames;
 import base.jdi.pages.*;
 import com.epam.jdi.uitests.web.selenium.elements.composite.WebSite;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.JPage;
@@ -11,17 +12,22 @@ public class HomePageJDISite extends WebSite {
     @JPage(url = "/JDI/index.html", title = "Home Page")
     public static HomePage homePage;
     @JPage(url = "/JDI/metals-colors.html", title = "Metal and Colors")
-    public static MetalAndColorsPage metalAndColorsPage;
+    public static MetalAndColorsPage kmetalAndColorsPage;
+    @JPage(url = "/JDI/contacts.html", title = "Contact Form")
+    public static MetalAndColorsPage contacntForm;
 
-    public static void checkOpened(PageNames page) {
+   /* public static void checkOpened(PagesNames page) {
         switch (page) {
-            case QWE:
+            case HOME:
                 homePage.checkOpened();
                 break;
-            case ASD:
+            case METALS_COLORS:
                 metalAndColorsPage.checkOpened();
                 break;
+            case CONTACT_FORM:
+                contacntForm.checkOpened();
+                break;
         }
-    }
+    }*/
 
 }

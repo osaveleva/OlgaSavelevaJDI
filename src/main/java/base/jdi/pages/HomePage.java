@@ -1,5 +1,6 @@
 package base.jdi.pages;
 
+import base.jdi.enums.PagesNames;
 import base.jdi.hw1.entities.User;
 import base.jdi.sections.Header;
 import base.jdi.sections.NavigationSidebar;
@@ -7,6 +8,8 @@ import com.epam.jdi.uitests.web.selenium.elements.common.Label;
 import com.epam.jdi.uitests.web.selenium.elements.common.Text;
 import com.epam.jdi.uitests.web.selenium.elements.composite.WebPage;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple.Css;
+
+import static base.jdi.HomePageJDISite.*;
 
 
 public class HomePage extends WebPage {
@@ -24,7 +27,17 @@ public class HomePage extends WebPage {
         header.loginForm.loginAs(user);
     }
 
-    public void openByLeftMenu(jdi.hw1.PageNames pageName) {
+    public void openByLeftMenu(PagesNames page) {
+        switch (page) {
+            case CONTACT_FORM:
+                navigationSidebar.contactForm.click();
+                contacntForm.checkOpened();
+                break;
+            case METALS_COLORS:
+                navigationSidebar.metalsColors.click();
+                metalAndColorsPage.checkOpened();
+                break;
+        }
 
     }
 }
