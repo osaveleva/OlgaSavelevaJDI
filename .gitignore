@@ -1,5 +1,6 @@
 .idea
 OlgaSavelevaJDI.iml
 target
+src/test/java/.logs
 
-.idea
+
