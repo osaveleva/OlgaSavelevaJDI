@@ -1,17 +1,21 @@
-package jdi.hw1.data;
+package jdi.data;
 
 import base.jdi.hw1.entities.MetalsColors;
 import base.jdi.hw1.entities.User;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static base.jdi.enums.ColorsList.*;
-import static base.jdi.enums.Metals.*;
-import static base.jdi.enums.NatureElements.*;
-import static base.jdi.enums.OddsEven.*;
+import static base.jdi.enums.ColorsList.Red;
+import static base.jdi.enums.Metals.Selen;
+import static base.jdi.enums.NatureElements.Fire;
+import static base.jdi.enums.NatureElements.Water;
+import static base.jdi.enums.OddsEven.EIGHT;
+import static base.jdi.enums.OddsEven.THREE;
 import static base.jdi.enums.UserName.PETER_CHAILOVSKII;
-import static base.jdi.enums.Vegetables.*;
+import static base.jdi.enums.Vegetables.Cucumber;
+import static base.jdi.enums.Vegetables.Tomato;
 
 public class TestData {
     public static List<String> lines = new ArrayList<>();
@@ -29,8 +33,6 @@ public class TestData {
         c.metals = Selen;
         c.vegetables = Arrays.asList(Cucumber, Tomato);
     });
+
 }
-
-
-
 

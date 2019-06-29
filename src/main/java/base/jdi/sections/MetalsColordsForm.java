@@ -4,6 +4,7 @@ import base.jdi.enums.Vegetables;
 import base.jdi.hw1.entities.MetalsColors;
 import base.jdi.enums.NatureElements;
 import base.jdi.enums.OddsEven;
+import beans.JDIEx8MetalsColors;
 import com.epam.jdi.uitests.web.selenium.elements.common.Button;
 import com.epam.jdi.uitests.web.selenium.elements.complex.*;
 import com.epam.jdi.uitests.web.selenium.elements.composite.Form;
@@ -12,6 +13,17 @@ import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.object
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.objects.JDropList;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.objects.JDropdown;
 import com.epam.jdi.uitests.web.selenium.elements.pageobjects.annotations.simple.XPath;
+import cucumber.api.java.tr.Ve;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import static base.jdi.enums.NatureElements.Fire;
+import static base.jdi.enums.NatureElements.Water;
+import static base.jdi.hw1.entities.MetalsColors.getEven;
+import static base.jdi.hw1.entities.MetalsColors.getOdd;
 
 public class MetalsColordsForm extends Form<MetalsColors> {
 
@@ -22,7 +34,7 @@ public class MetalsColordsForm extends Form<MetalsColors> {
     public RadioButtons<OddsEven> even;
 
     @FindBy(css = "#elements-checklist p")
-    public CheckList<NatureElements> natureElementsCheckList;
+    public CheckList<NatureElements> natureElements;
 
     @XPath(".//button[@type='submit' and contains(.,'Submit')]")
     public Button submit;
@@ -48,19 +60,30 @@ public class MetalsColordsForm extends Form<MetalsColors> {
     )
     public DropList vegetables;
 
-    @Override
-    public void submit(MetalsColors metalsColors) {
-        // odd.select(metalsColors.getOdd());
-        //  even.select(metalsColors.even);
-        //method(strs.toArray(new String[strs.size()]));
+
+    private void checkVegetables() {
         if (vegetables.getText() != null) {
             vegetables.check(vegetables.getText());
-            vegetables.check(metalsColors.vegetables.toArray(new Vegetables[0]));
-        } else {
-            vegetables.check(metalsColors.vegetables.toArray(new Vegetables[0]));
         }
-        natureElementsCheckList.check(metalsColors.natureElements.toArray(new NatureElements[0]));
+    }
+
+    @Override
+    public void submit(MetalsColors metalsColors) {
+        checkVegetables();
+        vegetables.check(metalsColors.vegetables.toArray(new Vegetables[0]));
+        natureElements.check(metalsColors.natureElements.toArray(new NatureElements[0]));
         super.submit(metalsColors);
+    }
+
+    public void submit(JDIEx8MetalsColors jdiEx8MetalsColors) {
+        odd.select(String.valueOf(getOdd(jdiEx8MetalsColors)));
+        even.select(String.valueOf(getEven(jdiEx8MetalsColors)));
+        checkVegetables();
+        vegetables.check(jdiEx8MetalsColors.vegetables.toArray(new String[0]));
+        natureElements.check(jdiEx8MetalsColors.elements.toArray(new String[0]));
+        colors.select(jdiEx8MetalsColors.color);
+        metals.select(jdiEx8MetalsColors.metals);
+        submit.click();
     }
 
 }

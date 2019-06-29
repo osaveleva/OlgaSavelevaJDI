@@ -1,24 +1,20 @@
 package jdi.hw1;
 
 import jdi.HomePageInits;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static base.jdi.HomePageJDISite.homePage;
 import static base.jdi.HomePageJDISite.metalAndColorsPage;
 
-import static base.jdi.enums.NatureElements.Fire;
-import static base.jdi.enums.NatureElements.Water;
-import static base.jdi.enums.PagesNames.*;
 import static base.jdi.enums.PagesNames.METALS_COLORS;
-import static jdi.hw1.data.TestData.*;
+import static jdi.data.TestData.*;
 
 
 public class HW1MetalsColorsTest extends HomePageInits {
 
 
     @Test
-    public void checkMetalsColors() {
+    public void checkMetalsColorsPage() {
         //1. Open browser
         homePage.open();
 
@@ -31,7 +27,6 @@ public class HW1MetalsColorsTest extends HomePageInits {
 
         //4. Fill form Metals & Colors and submit data
         metalAndColorsPage.form.submit(METALS_COLORS_VALUES);
-      //  metalAndColorsPage.form.natureElementsCheckList.
 
         //5. Check result sections
         metalAndColorsPage.logSidebar.checkContains(METALS_COLORS_VALUES);

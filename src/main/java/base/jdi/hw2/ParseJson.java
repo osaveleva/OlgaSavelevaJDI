@@ -23,9 +23,7 @@ public class ParseJson {
         Type type = new TypeToken<Map<String, JDIEx8MetalsColors>>() {
         }.getType();
 
-        return ((Map<String, String>)new Gson().fromJson(parser().toString().trim(), type))
+        return ((Map<String, String>) new Gson().fromJson(parser().toString().trim(), type))
                 .values().toArray(new Object[0]);
-//        Map<String, String> myMap = new Gson().fromJson(parser().toString().trim(), type);
-//        return myMap.values().toArray(new Object[0]);
     }
 }

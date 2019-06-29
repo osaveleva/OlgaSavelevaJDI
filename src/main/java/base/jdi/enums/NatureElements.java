@@ -2,12 +2,6 @@ package base.jdi.enums;
 
 public enum NatureElements {
 
-Water, Earth, Wind, Fire
-   /* WATER("Water"), EARTH("Earth"), WIND("Wind"), FIRE("Fire");
+    Earth, Fire, Water, Wind
 
-    public String value;
-
-    NatureElements(String value) {
-        this.value = value;
-    }*/
 }

@@ -1,6 +1,7 @@
 package base.jdi.hw1.entities;
 
 import base.jdi.enums.*;
+import beans.JDIEx8MetalsColors;
 import com.epam.jdi.tools.DataClass;
 import org.apache.commons.lang3.StringUtils;
 
@@ -28,7 +29,23 @@ public class MetalsColors extends DataClass<MetalsColors> {
         }};
     }
 
-    public int getOdd() {
-        return 0;
+    public static ArrayList<String> asSiteLog(JDIEx8MetalsColors jdiEx8MetalsColors) {
+        return new ArrayList<String>() {{
+            add(String.format("Summary: %s", getOdd(jdiEx8MetalsColors) + getEven(jdiEx8MetalsColors)));
+            add(String.format("Elements: %s", StringUtils.join(jdiEx8MetalsColors.elements, ", ")));
+            add(String.format("Color: %s", jdiEx8MetalsColors.color));
+            add(String.format("Metal: %s", jdiEx8MetalsColors.metals));
+            add(String.format("Vegetables: %s", StringUtils.join(jdiEx8MetalsColors.vegetables, ", ")));
+            // TODO For the reset of the fields.
+        }};
+    }
+
+
+    public static int getOdd(JDIEx8MetalsColors jdiEx8MetalsColors) {
+        return jdiEx8MetalsColors.summary.get(0);
+    }
+
+    public static int getEven(JDIEx8MetalsColors jdiEx8MetalsColors) {
+        return jdiEx8MetalsColors.summary.get(1);
     }
 }
