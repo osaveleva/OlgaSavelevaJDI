@@ -7,7 +7,10 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
+
+
+import static base.jdi.EpamPageConstants.COMMA;
+import static base.jdi.enums.ResultList.*;
 
 public class MetalsColors extends DataClass<MetalsColors> {
     public int odd;
@@ -20,22 +23,22 @@ public class MetalsColors extends DataClass<MetalsColors> {
 
     public ArrayList<String> asSiteLog() {
         return new ArrayList<String>() {{
-            add(String.format("Summary: %s", odd + even));
-            add(String.format("Elements: %s", StringUtils.join(natureElements, ", ")));
-            add(String.format("Color: %s", colors));
-            add(String.format("Metal: %s", metals));
-            add(String.format("Vegetables: %s", StringUtils.join(vegetables, ", ")));
+            add(SUMMARY_BASE.getRecord(String.valueOf(odd + even)));
+            add(ELEMENTS_BASE.getRecord(StringUtils.join(natureElements, COMMA)));
+            add(COLOR_BASE.getRecord(colors.toString()));
+            add(METAL_BASE.getRecord(metals.toString()));
+            add(VEGETABLES_BASE.getRecord(StringUtils.join(vegetables, COMMA)));
             // TODO For the reset of the fields.
         }};
     }
 
     public static ArrayList<String> asSiteLog(JDIEx8MetalsColors jdiEx8MetalsColors) {
         return new ArrayList<String>() {{
-            add(String.format("Summary: %s", getOdd(jdiEx8MetalsColors) + getEven(jdiEx8MetalsColors)));
-            add(String.format("Elements: %s", StringUtils.join(jdiEx8MetalsColors.elements, ", ")));
-            add(String.format("Color: %s", jdiEx8MetalsColors.color));
-            add(String.format("Metal: %s", jdiEx8MetalsColors.metals));
-            add(String.format("Vegetables: %s", StringUtils.join(jdiEx8MetalsColors.vegetables, ", ")));
+            add(SUMMARY_BASE.getRecord(String.valueOf(getOdd(jdiEx8MetalsColors) + getEven(jdiEx8MetalsColors))));
+            add(ELEMENTS_BASE.getRecord(StringUtils.join(jdiEx8MetalsColors.elements, COMMA)));
+            add(COLOR_BASE.getRecord(jdiEx8MetalsColors.color));
+            add(METAL_BASE.getRecord(jdiEx8MetalsColors.metals));
+            add(VEGETABLES_BASE.getRecord(StringUtils.join(jdiEx8MetalsColors.vegetables, COMMA)));
             // TODO For the reset of the fields.
         }};
     }
